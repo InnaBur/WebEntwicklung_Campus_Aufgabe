@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktformular – Virtuelle Bibliothek</title>
+</head>
+
+
+<body>
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Startseite</a></li>
+                <li><a href="authors.html">Autoren</a></li>
+                <li><a href="contact.html">Kontakt</a></li>
+            </ul>
+        </nav>
+
+        <h1>Kontaktformular</h1>
+    </header>
+
+    <main>
+
+        <form action="https://example.com/form-handler" method="POST" enctype="multipart/form-data">
+            <label for="thema">Thema:</label>
+<p>
+            <select name="thema" id="thema">
+                <option value="allgemein">Allgemeine Anfrage</option>
+                <option value="feedback">Feedback</option>
+                <option value="problem">Probleme melden</option>
+                <option value="support">Technischer Support</option>
+                <option value="sonstiges">Sonstiges</option>
+            </select>
+        </p>
+
+            <p><label>Vorname:
+                <input type="text" id="vorname" name="vorname" required>
+            </label>
+        </p>
+
+            <p><label>Nachname:
+                <input type="text" id="nachname" name="nachname" required>
+            </label>
+        </p>
+
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>

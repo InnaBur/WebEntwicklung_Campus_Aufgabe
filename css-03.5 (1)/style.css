@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: pink;
+}
+
+nav {
+    background-color: azure;
+}
+
+main {
+    background-color: darkseagreen;
+}
+
+aside {
+    background-color: bisque;
+}
+
+footer {
+    background-color: pink;
+}
+
+body {
+   display: flex;
+   flex-direction: column;
+   gap: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+/* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0;*/
+nav, main, aside {
+    flex: 1 1 0;
+} 
+
+
+/* 
+nav, main, aside {
+    width: 33.33%;
+} */
+
+nav, aside {
+   max-width: 100px;
+}
+
+/* main {
+    flex-grow: 2;
+    max-width: 50%;
+}  */
